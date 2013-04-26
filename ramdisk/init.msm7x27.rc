@@ -1,6 +1,7 @@
 import /init.${ro.hardware}.parts.rc
 import /init.${ro.hardware}.usb.rc
 import /init.${ro.hardware}.bluez.rc
+import /init.pa.rc
 
 on init
     insmod /lib/modules/fsr.ko
